@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .guarantee-container {
+  width: 100%;
+  max-width: 1480px;
+  height: 400px;
+  line-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .guarantee-container img {
+  width: 100px;
+  height: 85px;
+  object-fit: fill;
+}
+
+.App .guarantee-container p {
+  padding-inline: 2rem;
+}
