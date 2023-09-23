@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  max-height: 600px;
   align-items: center;
 }
 
@@ -33,7 +34,7 @@ tr:hover {
 }
 
 button {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 15px 32px;
