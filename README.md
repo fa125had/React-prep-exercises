@@ -1,23 +1,10 @@
-# React prep exercises - Class44
+# React Optional QA prep exercises - Class44
 
 ## Week 1
 
-### Building a counter
+Possible Q&A exercises are exercises that you can nominate to discuss with the Q&A mentor during the session on Sunday. Have a go at these and see which one you find difficult, then you can reply to the thread in your class channel with a link to the exercise you want to do. Even if the exercise does not get handled in the Q&A session these exercises are good ways to get ideas of what to build to keep practicing.
 
-The counter is one of the best way to learn about state management as it is nice and simple and isolates the management of state. Let's create a simple number counter, starting from 0 until infinity!
+If you want to nominate a different exercise you found online then feel free to do so! We may even add that one to the list for the next class to use and attribute it to you.
 
-1. Run `create-react-app` in this folder to create your environment
-2. Create 3 functional components called `<Counter>`, `<Count>` and `<Button>`
-3. Inside `<Counter>` define a state variable called `count` (initialized with value `0`) and state handler called `setCount`
-4. Inside `<Button>` create a `<button>` with the text `Add 1!` and `onClick` attribute
-5. Pass down the `count` state variable to `<Count>`, and a function to add 1 to the count to `<Button>`
-6. Inside `<Counter>`, declare a variable called `feedback` above the return statement. Give this variable a ternary operator value: if `count` is higher than 10 it should display the string `"It's higher than 10!"`, else it displays `"Keep counting..."`
-7. Test out if it works by importing `<Counter>` into the top level component, which is `<App>`
+Inside of your React fork, go to the folder week1. Inside of that folder, navigate to /possible-qa-exercises. For each exercise, you will find a separate folder. The README explains what needs to be done. Go through them to practice concepts that you have learned about!
 
-## Things to think about
-
-Building this little App should be straightforward, now let's get those _brain juices_ flowing. Before the session on Sunday have a think about the following:
-
-- How would you implement a decrement button that lowers the count by 1? Would you make 2 different <Button> functions or would you add props to the component to handle the change in text?
-- Once you can decrement as well, how would you implement it never going below 0?
-- What would you need to change to also have a button that adds 2 and one that removes 2? Will that create a problem with your logic for never going below 0?

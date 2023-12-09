@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .guarantee-container {
+    width: 100%;
+    max-width: 1480px;
+    height: 400px;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 85px;
+      object-fit: fill;
+    }
+
+    h2 {
+      text-wrap: nowrap;
+    }
+
+    p {
+      padding-inline: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .App {
+    .guarantee-container {
+      flex-direction: column;
+    }
+  }
+}

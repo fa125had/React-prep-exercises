@@ -1,0 +1,25 @@
+body {
+  background: #2c2c2c;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .hobby-list {
+  list-style: none;
+}
+.App .hobby-list li {
+  font-size: 2rem;
+  transition: all 200ms;
+}
+.App .hobby-list li:hover {
+  border: 2px red solid;
+  cursor: pointer;
+  color: #fff;
+}/*# sourceMappingURL=App.css.map */
